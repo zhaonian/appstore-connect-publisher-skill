@@ -1,0 +1,27 @@
+# Environment & Credentials
+.env
+.env.*
+*.p8
+*.pem
+*.key
+*.cer
+*.mobileprovision
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fastlane secrets
+fastlane/Appfile
+fastlane/Deliverfile
+fastlane/metadata/**/*.txt
+!fastlane/metadata/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
