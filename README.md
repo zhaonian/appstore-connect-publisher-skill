@@ -10,8 +10,8 @@
 
 ## 🌟 Features
 
+- 🔐 **Pre-Flight Check & Interactive Setup Assistant**: Validates your Apple App Store Connect API Key (`.p8` key + Issuer ID + Key ID). If missing, it immediately notifies you in chat and guides you step-by-step through credential setup.
 - ⚡ **Streamlined In-Chat Metadata Package**: Displays all generated fields (Title, Subtitle, Keywords, Description, Promo Text, Territory Rules) directly in chat as a single clean package—no cluttering your codebase with multiple separate text files.
-- 🛡️ **Built-in Overwrite Safeguard**: Automatically detects if fields are already set on App Store Connect and prompts you before making any changes—preventing accidental overwrites.
 - 🔍 **AI-Driven ASO Keyword Research**: Scans your iOS codebase, models, UI, and README to craft 100-character non-redundant keywords, titles, and subtitles.
 - 🌍 **Territory Rules**: Easily exclude specific countries (e.g. France `FR`) or set custom distribution rules.
 - 🔐 **Pre-Flight Security Check**: Validates your Apple App Store Connect API Key (`.p8` key + Issuer ID + Key ID) before uploading.
