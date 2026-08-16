@@ -10,6 +10,7 @@
 
 ## 🌟 Features
 
+- 🖼️ **Automatic Screenshot Generation**: If formatted ASO screenshots do not exist yet, the skill automatically invokes the `aso-appstore-screenshots` workflow to design and compose 1242 × 2688 px uniform screenshots from your app screens before publishing.
 - 🚦 **Mandatory LGTM Approval Gate**: Displays a final pre-flight summary of all metadata, territory rules, and screenshots, requiring your explicit **`LGTM`** approval before firing any upload commands to Apple.
 - 🔐 **Pre-Flight Check & Interactive Setup Assistant**: Validates your Apple App Store Connect API Key (`.p8` key + Issuer ID + Key ID). If missing, it immediately notifies you in chat and guides you step-by-step through credential setup.
 - ⚡ **Streamlined In-Chat Metadata Package**: Displays all generated fields (Title, Subtitle, Keywords, Description, Promo Text, Territory Rules) directly in chat as a single clean package—no cluttering your codebase with multiple separate text files.
