@@ -10,6 +10,7 @@
 
 ## 🌟 Features
 
+- 🛡️ **Built-in Overwrite Safeguard**: Automatically detects if fields (Title, Subtitle, Keywords, Description, Screenshots) are already set on App Store Connect and prompts you before making any changes—preventing accidental overwrites.
 - 🔍 **AI-Driven ASO Keyword Research**: Scans your iOS codebase, models, UI, and README to craft 100-character non-redundant keywords, titles, and subtitles.
 - 🌍 **Territory Rules**: Easily exclude specific countries (e.g. France `FR`) or set custom distribution rules.
 - 🔐 **Pre-Flight Security Check**: Validates your Apple App Store Connect API Key (`.p8` key + Issuer ID + Key ID) before uploading.
